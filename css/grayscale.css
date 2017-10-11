@@ -40,7 +40,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #750B11;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -48,7 +48,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #ff0000;
 }
 .light {
   font-weight: 400;
@@ -76,7 +76,11 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: #750B11;
+}
+
+p {
+ color: #750B11;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -259,16 +263,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #750B11;
+  color: #750B11;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #750B11;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #750B11;
 }
 ul.banner-social-buttons {
   margin-top: 0;
