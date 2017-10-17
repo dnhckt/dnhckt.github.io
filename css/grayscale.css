@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
+ * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)in 
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
@@ -150,6 +150,14 @@ p {
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
+@media (min-width: 680px)
+{
+ #centipede {
+    width: 660px;
+    height: 375px;
+ }
+}
+
 @media (min-width: 768px) {
   .intro {
     height: 100%;
