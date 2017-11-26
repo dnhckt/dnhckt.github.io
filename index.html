@@ -31,13 +31,6 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-   <style>
-   p {
-      font-family: 'Arimo', sans-serif;
-      font-weight: bold;
-   }
-   
-   </style>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -47,7 +40,7 @@
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
+                    <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top" id="name">
                     <span class="light">Aidan</span> Hackett
@@ -100,16 +93,43 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h1>About </h1>
-							<h4>Origin:</h4> <p align="center"> &nbsp;&nbsp;Manchester, United Kingdom</p>
-							<h4>Degree:</h4> <p align="center"> &nbsp;&nbsp;Computer Science with Design MSci
-							                       <br> &nbsp;&nbsp;Lancaster University
-							                       <br> &nbsp;&nbsp;2016-2020</p>							                       
-							<h4>Interests:</h4> <p align="center"> &nbsp;&nbsp;  Software Development
-							                       <br> &nbsp;&nbsp; Web & Game Design
-							                       <br> &nbsp; Cyber Security
-							                       <br> &nbsp;&nbsp; Bass Guitar
-							                       <br> &nbsp;&nbsp; Gym</p>							                       
-
+                <div id="tlabel">
+                <p id="tl">Terminal</p>
+                </div>
+                 <div id="terminal">
+                 
+                    <!-- Origin -->
+					<p>&nbsp; ath@root:~/Documents/portfolio/about$ <span class="cmd"> cat origin.txt </p>
+					<p id="about"> 
+					<span class="txt">&nbsp; Manchester, United Kingdom </p>
+					</p>
+					
+                    <!-- Education -->
+					<p>&nbsp; ath@root:~/Documents/portfolio/about$ <span class="cmd"> cat education.txt </p>
+					<p id="about"> 
+					<span class="txt">
+					&nbsp; Computer Science with Design MSci
+					<br>&nbsp; Lancaster University
+					<br>&nbsp; 2016 - 2020
+					</span>
+					</p>
+					</p>
+					
+					
+					<!-- Interests -->
+					<p>&nbsp; ath@root:~/Documents/portfolio/about$ <span class="cmd"> cat interests.txt </p>
+					<p id="about"> 
+					<span class="txt">
+					&nbsp; Cyber Security
+					<br>&nbsp; Web Design
+					<br>&nbsp; Game Design
+					<br>&nbsp; Guitar & Bass
+					<br>&nbsp; Weightlifting
+					</span>
+					</p>
+					<p>&nbsp; ath@root:~/Documents/portfolio/about$ <span class="blink">&#9610;</p>
+					
+                </div>
         </div>
     </section>
 
@@ -119,8 +139,11 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Projects</h2>
-                    <a href="https://tourit.github.io" class="btn btn-default btn-lg" target="_blank">Innovation Challenge</a></br></br>
-                    <a href="cent.html" class="btn btn-default btn-lg">Centipede</a></br></br>
+                    <a href="https://tourit.github.io" class="btn btn-default btn-lg" target="_blank">Tourit</a></br></br>
+                    <a href="cent.html" class="btn btn-default btn-lg">Centipede</a></br></br> <!--
+                    <a href="#" class="btn btn-default btn-lg">Bass Bible</a></br></br>
+                    <a href="#" class="btn btn-default btn-lg">LG Lua Game</a></br></br>
+                    <a href="cent.html" class="btn btn-default btn-lg">Hacking Project</a></br></br> -->
                     <a href="https://github.com/dnhckt" class="btn btn-default btn-lg">See more on Github</a></br></br>
                 </div>
             </div>
@@ -153,7 +176,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <i>Copyright &copy; Aidan Hackett 2017</i>
+            <i>&copy; 2017 Aidan Hackett</i>
         </div>
     </footer>
 
