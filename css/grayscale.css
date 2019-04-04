@@ -78,6 +78,9 @@ p {
 
 }
 
+#contact > div > div > ul > li:nth-child {
+  width: 100%;
+}
 
 .txt {
   color: white;
@@ -395,7 +398,11 @@ a:focus {
 }
 ul.banner-social-buttons {
   margin-top: 0;
+}
+@media (min-width: 1199px) {
+  ul.banner-social-buttons {    
   display: flex;
+  }
 }
 @media (max-width: 1199px) {
   ul.banner-social-buttons {
@@ -404,8 +411,10 @@ ul.banner-social-buttons {
   p {
   margin: 0 0 0 0 ;
   color: #f43d3d;
+  overflow: hidden;
   }
 
+}
 
 #tl {
 text-align: center;
