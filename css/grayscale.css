@@ -99,14 +99,14 @@ img.lupic {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1%;
-    height: 300px;
-    width: 500px;
+    width: 50%;
+    max-width: 500px;
   }
   .lulink {
     width: 50%;
   }
 
-.overlay {
+/* .overlay {
    position: absolute; 
    opacity: 0; 
    height: 300px; 
@@ -124,7 +124,7 @@ img.lupic {
   top: 50%;
   left: 50%;
      color: #111;
-         background-color: #f43d3d;
+         background-color: #f43d3d; */
 
 font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
