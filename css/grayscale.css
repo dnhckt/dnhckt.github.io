@@ -488,3 +488,13 @@ body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
 
+.nav > li {
+  font-size: large;
+}
+
+.uname {
+  color: #f43d3d;
+}
+.path {
+  color: cyan;
+}
